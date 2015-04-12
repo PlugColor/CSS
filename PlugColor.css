@@ -38,6 +38,7 @@ background: url(http://i.imgur.com/XBOeBE8.jpg)!important;}
 /* background-image: url(http://i.imgur.com/S9qLJLn.jpg)*/ /* BONUS: WINTER '14 */
 /* NOTES:
 /* make compatible with radient script and Basicbot
+/* #playback .background img {top: 4000px} */
 /* d8dbf8bf38a76f7a1f4a0eabf46def5dd6279b16 "robot07" a.k.a, Brown and yellow robot
 /* Edit Dialog Can't Play Dialog and Create Playlist dialog
 /* span.emoji-1f346 eggplant
@@ -180,9 +181,7 @@ box-shadow: 0px 1px 0px 0px #0A0A0A inset !important;}
 color: #AC76FF}
 .media-list .row.in-history {
 color: #FF0000;
-font-family: arial;}/*
-#playback .background img{
-top: 4000px} */
+font-family: arial;}
 #footer-user .menu .item{
 background-color: rgba(0, 0, 0, 0.90) !important;}
 #waitlist .list{
