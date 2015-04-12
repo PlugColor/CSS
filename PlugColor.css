@@ -1,5 +1,6 @@
 #room .room-background{
-background: url(http://i.imgur.com/EFXFnql.png)!important;}
+background: url(http://i.imgur.com/XBOeBE8.jpg)!important;}
+/* background-image: url(http://i.imgur.com/XBOeBE8.jpg)*/ /* LOST ISLAND */
 /* background-image: url(http://i.imgur.com/cwHjuod.png)*/ /* Custom WINTER */
 /* background-image: url(http://i.imgur.com/kmmPWiS.jpg)*/ /* PLUG.DJ OLD DEFAULT */
 /* background-image: url(http://i.imgur.com/1aw3xcd.png)*/ /* Abandoned Ballroom */
@@ -35,15 +36,13 @@ background: url(http://i.imgur.com/EFXFnql.png)!important;}
 /* background-image: url(http://i.imgur.com/sfU5X2Q.jpg)*/ /* BONUS: HALLOWEEN '14 */
 /* background-image: url(http://i.imgur.com/hjtFKu3.jpg)*/ /* BONUS: WINTER '13 */
 /* background-image: url(http://i.imgur.com/S9qLJLn.jpg)*/ /* BONUS: WINTER '14 */
-/* NOTES:- */
-/* make compatible with radient script */
-/* d8dbf8bf38a76f7a1f4a0eabf46def5dd6279b16 */ /* "robot07" a.k.a, Brown and yellow robot */
-/* Edit Dialog on Create Playlist */
-/* Edit Can't Play Dialog */
-/* span.emoji-1f346 */
-/* Fix In history songs red color */
-/* #dj-button.is-quit */
-span.emoji-2615{
+/* NOTES:
+/* make compatible with radient script and Basicbot
+/* d8dbf8bf38a76f7a1f4a0eabf46def5dd6279b16 "robot07" a.k.a, Brown and yellow robot
+/* Edit Dialog Can't Play Dialog and Create Playlist dialog
+/* span.emoji-1f346 eggplant
+/* Fix In history songs red color
+/* span.emoji-2615{
 background: url(http://i.imgur.com/34ZjpvK.png)}
 span.emoji-2615{
 animation: steam 3s steps(5,end) infinite;
@@ -53,7 +52,15 @@ from {background-position: 0px 0px;}
 to {background-position: -80px 0px;}}
 @-webkit-keyframes steam{
 from {background-position: 0px 0px;}
-to {background-position: -80px 0px;}}
+to {background-position: -80px 0px;}} */
+#app-menu .list .item span{
+color: rgb(100, 160, 230);}
+#app-menu .list .logout{
+color: rgb(255, 0, 0);}
+.dropdown dd .row span{
+color: rgb(190, 130, 205)}
+#p3-settings .header{
+box-shadow: 0px 0px 0px 1px #0A0A0A inset;}
 #dj-button:hover{
 color: rgb(170, 0, 255);}
 #user-store .misc .grid .cell .title-bar{
@@ -173,9 +180,9 @@ box-shadow: 0px 1px 0px 0px #0A0A0A inset !important;}
 color: #AC76FF}
 .media-list .row.in-history {
 color: #FF0000;
-font-family: arial;}
+font-family: arial;}/*
 #playback .background img{
-top: 4000px}
+top: 4000px} */
 #footer-user .menu .item{
 background-color: rgba(0, 0, 0, 0.90) !important;}
 #waitlist .list{
@@ -194,10 +201,10 @@ box-shadow: 1px 0px 0px 0px #0A0A0A inset;}
 #footer-user{
 box-shadow: 1px 1px 0px 0px #0A0A0A inset;}
 .jspContainer{
-box-shadow: 1px 0px 0px 0px #0A0A0A inset !important;}
+box-shadow: 1px 0px 0px 0px #0A0A0A inset;}
 .app-header{
-box-shadow: 0px 0px 0px 0px #0A0A0A inset !important;}
-#plugcubed, #app-menu{
+box-shadow: 0px 0px 0px 0px #0A0A0A inset;}
+#plugcubed{
 background: transparent !important;}
 #chat-messages{
 border-bottom: none;}
@@ -217,7 +224,7 @@ color: rgb(51, 215, 73)}
 #user-friends .list .row .level .label, .user-content.profile .meta .joined, #user-settings .container .refresh, #user-settings .container label, #waitlist .header .count,
 #waitlist .header .position .current, #user-rollover .meta .joined, #user-rollover .info .level .label{
 color: rgb(255, 255, 255)}
-#app-menu .list .logout, #room-settings .general-settings .option button, .user-content.profile .points button, #user-view .menu-points button, .communities .grid .cell .meta .join .label,
+#room-settings .general-settings .option button, .user-content.profile .points button, #user-view .menu-points button, .communities .grid .cell .meta .join .label,
 .experience .xp .current-level, #user-rollover .meta.working .status span, #dashboard .search input{
 color: rgb(255, 0, 0)}
 #chat .update .text, #user-lists .list.bans .user .duration{
@@ -236,7 +243,7 @@ color: rgb(255, 100, 0)}
 color: rgb(0, 0, 0)}
 #footer-user .info .meta .label, #playback-controls .button .box, .communities .grid .cell .meta .host{
 color: rgb(100, 0, 190)}
-#chat-input-field, .app-right .friends .list-header .title, .app-right .friends .list-header .count, .media-list .meta .title, #chat-messages{
+#chat-input-field, .app-right .friends .list-header .title, .app-right .friends .list-header .count, #chat-messages{
 color: rgb(0, 230, 255)}
 .app-right .friends .list-header input, .app-right .friends .list-header .input-background, #user-lists .list-header input, #filter-input input, #search-input input,
 #user-lists .list.staff .group span{
@@ -261,7 +268,7 @@ color: rgb(180, 150, 240)}
 color: rgb(0, 255, 255)}
 .communities .grid .cell .population div span, .experience .description{
 color: rgb(50, 250, 250)}
-.media-list.history .meta .author, #app-menu .list .item span, #footer-user .menu .item span{
+.media-list.history .meta .author, #footer-user .menu .item span{
 color: rgb(70, 175, 210)}
 #user-rollover .meta.gaming .status span{
 color: rgb(200, 70, 230)}
@@ -276,7 +283,7 @@ color: rgb(105, 235, 115)}
 #user-rollover .meta .username{
 color: rgb(70, 175, 210)}
 #playlist-button{
-background-image: linear-gradient(rgba(172, 118, 255, 0.25) 0px, rgba(146, 90, 255, 0.25) 100%) !important;}
+background-image: linear-gradient(rgba(172, 118, 255, 0.70) 0px, rgba(146, 90, 255, 0.70) 100%) !important;}
 #footer-user .ep{
 color: rgb(80, 145, 245)}
 dt .icon.icon-arrow-down-grey, dt .icon.icon-arrow-up-grey{
@@ -302,8 +309,6 @@ box-shadow: inset 0px 0px 0px 1px rgb(68, 74, 89) !important;}
 color: rgb(20, 140, 10)} 
 #waitlist .header .title, #user-lists .list-header .title, #user-lists .list-header .count{
 color: rgb(30, 230, 255)}
-#app-menu.open, #app-menu, #app-menu.open .list, #app-menu.list{
-background-color: rgba(0, 0, 0, 0.6) !important;}
 .dark-label{
 color: rgb(172, 118, 255) !important;}
 #playlist-menu span{
@@ -325,7 +330,7 @@ color: rgb(255,255,0)}
 color: rgb(255,160,45);}
 #history-panel .row:hover .name, #history-panel .row:hover .timestamp{
 display: none !Important;}
-#room .app-right, #chat-messages .badge-box, #chat-messages .system, #facebook-menu li, #twitter-menu li, .badge-box{
+#room .app-right, #chat-messages .badge-box, #chat-messages .system, #facebook-menu li, #twitter-menu li, .badge-box, #app-menu{
 background-color: transparent !Important;}
 #history-button{
 background-color: rgba(0, 0, 0, 0.25) !important;}
@@ -347,9 +352,9 @@ background-color: rgba(0, 0, 0, 0.25) !important;}
 #chat-messages .update:nth-child(odd), #chat-messages .system:nth-child(odd), #chat-messages .skip:nth-child(odd), #chat-messages .user-action:nth-child(odd), #user-menu,
 #chat-messages .moderation:nth-child(odd), #chat-messages .bdg, #search, #search-menu ul, #search-menu .menu, #search-menu .selected, #search-suggestion, #search-suggestion .search-
 suggestion-item, #media-panel .row .actions, #playlist-activate-button:not(:hover), #history-panel .row .actions, #user-view.app-left > #the-user-profile, .dropdown.disabled, 
-#user-view.app-left > dd, #room-settings .general-settings :not(.enabled) button.on, #room-settings .general-settings .enabled button.off{
+#user-view.app-left > dd, #room-settings .general-settings :not(.enabled) button.on, #room-settings .general-settings .enabled button.off, #playlist-activate-button.active:hover{
 background-color: rgba(0, 0, 0, 0.50) !important;}
-#user-lists .group, #app .app-right .user:hover, #app .app-right .input-background, #toast-notifications .left, #search-bar, #search-menu li, #filter-bar, #chat-input{
+#user-lists .group, #app .app-right .user:hover, #app .app-right .input-background, #toast-notifications .left, #search-bar, #search-menu li, #filter-bar, #chat-input, #app-menu.open .list{
 background-color: rgba(0, 0, 0, 0.75) !important;}
 #playlist-menu .title, #history-panel .timestamp, #user-view.app-left > #user-history .timestamp, #user-view.app-left > #user-store :not(.tab-menu) button:hover,
 #user-inventory > DIV:last-child > DIV:first-child > DIV:first-child > SPAN, #user-inventory > DIV:last-child > DIV:first-child > DIV:last-child > DIV:first-child > SPAN,
