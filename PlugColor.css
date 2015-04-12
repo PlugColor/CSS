@@ -186,11 +186,6 @@ font-family: arial;}
 background-color: rgba(0, 0, 0, 0.90) !important;}
 #waitlist .list{
 background-color: rgba(0, 0, 0, 0.35) !important;}
-#search-input-field, #filter-input-field, #friends-search, #playlist-panel, #history-panel, #user-view.app-left > #user-menu .item :not(.count), #user-view.app-left > #the-user-profile,
-#user-view.app-left > #the-user-profile :not(.boosted) .bar, #user-view.app-left > #user-avatars .header, dt, dd, #user-view.app-left > #user-avatars .points, #user-view.app-left > #user-store,
-#user-view.app-left > #user-friends, #user-view.app-left > #user-history, #user-view.app-left > #user-communities .message, #user-view.app-left > #user-settings,
-#user-view.app-left button:not(.create), #room-settings{
-text-shadow: 0px 0px 6px black, 0px 0px 6px black, 0px 0px 6px black !important;}
 #footer-user .info.showing{
 background-color: rgba(0, 0, 0, 0.50)}
 #user-rollover{
@@ -205,12 +200,6 @@ box-shadow: 1px 0px 0px 0px #0A0A0A inset;}
 box-shadow: 0px 0px 0px 0px #0A0A0A inset;}
 #plugcubed{
 background: transparent !important;}
-#chat-messages{
-border-bottom: none;}
-#footer-user .buttons .button, #footer{
-box-shadow: none;}
-.header-panel-button{
-border-right: none !important;}
 #chat .log{
 background-color: transparent !important;}
 .user-content .tab-menu button{
@@ -298,12 +287,8 @@ background-color: rgba(29, 173, 234, 0.50) !Important;}
 background-color: rgba(0, 156, 221, 0.50) !important;}
 #room-settings .general-settings .enabled button.on{
 background-color: rgba(240, 79, 48, 0.50) !important;}
-#app .app-right .friends.has-requests .header, #footer-user .info .bar .value{
-box-shadow: inset 0px 0px 0px 24px rgba(0, 0, 0, 0.50) !Important;}
 #meh .label{
 color: rgb(140, 10, 30)}
-#chat-input:not(.focused){
-box-shadow: inset 0px 0px 0px 1px rgb(68, 74, 89) !important;}
 #woot .label{
 color: rgb(20, 140, 10)} 
 #waitlist .header .title, #user-lists .list-header .title, #user-lists .list-header .count{
@@ -321,8 +306,6 @@ background-color: rgba(59, 89, 152, 0.50) !Important;}
 #waitlist .header .position .current:nth-child(odd), #waitlist .header .count:nth-child(odd), #waitlist .header .position .current:nth-child(even), #waitlist .header .count:nth-child(even),
 #user-lists .list.bans .user .name{
 color: red;}
-#user-view.app-left > #the-user-profile .boosted .bar{
-text-shadow: 0px 0px 6px rgb(219,24,47), 0px 0px 6px rgb(219,24,47), 0px 0px 6px rgb(219,24,47) !important;}
 #user-lists .list.bans .user:hover > .unban{
 color: rgb(255,255,0)}
 #user-lists .list.bans .user .timestamp{
