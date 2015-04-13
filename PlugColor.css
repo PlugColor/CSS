@@ -38,6 +38,7 @@ background: url(http://i.imgur.com/XBOeBE8.jpg)!important;}
 /* background-image: url(http://i.imgur.com/S9qLJLn.jpg)*/ /* BONUS: WINTER '14 */
 /* NOTES:
 /* make compatible with radient script and Basicbot
+/* edit boosted bars
 /* #playback .background img {top: 4000px} */
 /* d8dbf8bf38a76f7a1f4a0eabf46def5dd6279b16 "robot07" a.k.a, Brown and yellow robot
 /* Edit Dialog Can't Play Dialog and Create Playlist dialog
@@ -54,9 +55,17 @@ to {background-position: -80px 0px;}}
 @-webkit-keyframes steam{
 from {background-position: 0px 0px;}
 to {background-position: -80px 0px;}} */
+#dialog-playlist-create .dialog-input-background input{
+color: rgb(255, 0, 0)}
+#chat-messages{
+border-bottom: none;}
+#footer-user .buttons .button.settings, #footer-user .buttons .button.profile, #footer-user .buttons .button.badge, #footer-user .buttons .button.inventory, #footer-user .buttons .button.store{
+box-shadow: none;}
 #app-menu .list .item span{
 color: rgb(100, 160, 230);}
 #app-menu .list .logout{
+color: rgb(255, 0, 0);}
+#app-menu .list .logout:hover{
 color: rgb(255, 0, 0);}
 .dropdown dd .row span{
 color: rgb(190, 130, 205)}
@@ -69,16 +78,16 @@ color: rgb(50, 210, 30);}
 #user-store .misc .grid .cell .top .level{
 color: rgb(0, 255, 255);}
 #footer-user .info .bar{
-background-color: rgba(35, 120, 25, 0.28)!important;}
+background-color: rgba(0, 0, 0, 0.28)!important;}
 #p3-settings-custom-colors .container .item input{
-color: rgb(160, 240, 230);
-background-color: rgba(0, 0, 0, 1);}
+color: rgb(160, 240, 230) !important;
+background-color: rgba(0, 0, 0, 1) !important;}
 #p3-settings-custom-colors .container .item span{
-color: rgb(40, 140, 210)}
+color: rgb(40, 140, 210) !important;}
 #p3-settings .header .title span.version, #p3-settings-custom-colors .container .section{
-color: rgb(240, 40, 210)}
+color: rgb(240, 40, 210) !important;}
 #p3-settings .header .title span, #p3-settings-custom-colors .header .title span{
-color: rgb(0, 255, 0)}
+color: rgb(0, 255, 0) !important;}
 #p3-settings .container .item span{
 color: rgb(120, 0, 240)}
 #p3-settings, #p3-settings-custom-colors{
@@ -314,6 +323,16 @@ color: rgb(255,160,45);}
 display: none !Important;}
 #room .app-right, #chat-messages .badge-box, #chat-messages .system, #facebook-menu li, #twitter-menu li, .badge-box, #app-menu{
 background-color: transparent !Important;}
+#chat-header{
+background-color: rgba(0, 0, 0, 0.35) !important;}
+#youtube-input-field{
+color: rgb(255, 0, 0)}
+#import-youtube .button{
+background-color: rgba(40, 200, 255, 0.8) !important;}
+#import-youtube .button:hover{
+background-color: rgba(20, 150, 255, 1) !important;}
+.dialog, #dialog-playlist-create .dialog-body{
+background-color: rgba(0, 0, 0, 0.60) !important;}
 #history-button{
 background-color: rgba(0, 0, 0, 0.25) !important;}
 #header-panel-bar .header-panel-button.selected, #toast-notifications .notification .right, #user-lists, #app .app-right .friends, #app .app-right .friends .row, #user-menu .item.selected,
@@ -336,11 +355,10 @@ background-color: rgba(0, 0, 0, 0.25) !important;}
 suggestion-item, #media-panel .row .actions, #playlist-activate-button:not(:hover), #history-panel .row .actions, #user-view.app-left > #the-user-profile, .dropdown.disabled, 
 #user-view.app-left > dd, #room-settings .general-settings :not(.enabled) button.on, #room-settings .general-settings .enabled button.off, #playlist-activate-button.active:hover{
 background-color: rgba(0, 0, 0, 0.50) !important;}
-#user-lists .group, #app .app-right .user:hover, #app .app-right .input-background, #toast-notifications .left, #search-bar, #search-menu li, #filter-bar, #chat-input, #app-menu.open .list{
+#user-lists .group, #app .app-right .user:hover, #app .app-right .input-background, #toast-notifications .left, #search-bar, #search-menu li, #filter-bar, #chat-input, #app-menu.open .list,
+#app .app-right .header{
 background-color: rgba(0, 0, 0, 0.75) !important;}
 #playlist-menu .title, #history-panel .timestamp, #user-view.app-left > #user-history .timestamp, #user-view.app-left > #user-store :not(.tab-menu) button:hover,
-#user-inventory > DIV:last-child > DIV:first-child > DIV:first-child > SPAN, #user-inventory > DIV:last-child > DIV:first-child > DIV:last-child > DIV:first-child > SPAN,
-#user-inventory > DIV:last-child > DIV:first-child > DIV:last-child > DIV:nth-child(2) > SPAN, #user-inventory > DIV:last-child > DIV:first-child > DIV:last-child > DIV:last-child > SPAN,
 #user-view.app-left > #the-user-profile button:hover, #user-view.app-left > #the-user-profile .points .pp .label, #user-view.app-left .header span:first-child,
 #user-view.app-left .tab-menu button.selected, #user-view.app-left > #user-communities .message a, #room-settings .title, #user-view.app-left > #the-user-profile .boost .label{
 color: rgb(219,24,47) !important;}
