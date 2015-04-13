@@ -41,7 +41,6 @@ background: url(http://i.imgur.com/XBOeBE8.jpg)!important;}
 /* edit boosted bars
 /* #playback .background img {top: 4000px} */
 /* d8dbf8bf38a76f7a1f4a0eabf46def5dd6279b16 "robot07" a.k.a, Brown and yellow robot
-/* Edit Dialog Can't Play Dialog and Create Playlist dialog
 /* span.emoji-1f346 eggplant
 /* Fix In history songs red color
 /* span.emoji-2615{
@@ -331,8 +330,6 @@ color: rgb(255, 0, 0)}
 background-color: rgba(40, 200, 255, 0.8) !important;}
 #import-youtube .button:hover{
 background-color: rgba(20, 150, 255, 1) !important;}
-.dialog, #dialog-playlist-create .dialog-body{
-background-color: rgba(0, 0, 0, 0.60) !important;}
 #history-button{
 background-color: rgba(0, 0, 0, 0.25) !important;}
 #header-panel-bar .header-panel-button.selected, #toast-notifications .notification .right, #user-lists, #app .app-right .friends, #app .app-right .friends .row, #user-menu .item.selected,
