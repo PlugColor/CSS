@@ -1,61 +1,53 @@
+/* Want Video border gone then remove the /* (from the line below)*/
+/* Video Border-Off: #playback .background img {top: 4000px} */
+/* change the background with the line (below) */
 #room .room-background{
 background: url(http://giant.gfycat.com/FixedWindingAmericanwigeon.gif)!important;}
-/* background-image: url(http://i.imgur.com/XBOeBE8.jpg)*/ /* LOST ISLAND */
-/* background-image: url(http://i.imgur.com/cwHjuod.png)*/ /* Custom WINTER */
-/* background-image: url(http://i.imgur.com/kmmPWiS.jpg)*/ /* PLUG.DJ OLD DEFAULT */
-/* background-image: url(http://i.imgur.com/1aw3xcd.png)*/ /* Abandoned Ballroom */
-/* background-image: url(http://i.imgur.com/HG8mqaM.png)*/ /* Ancient Ruins */
-/* background-image: url(http://i.imgur.com/8hfUntO.png)*/ /* Architect Chamber */
-/* background-image: url(http://i.imgur.com/XjiQctM.png)*/ /* Bomb Shelter */
-/* background-image: url(http://i.imgur.com/jNRQXKZ.png)*/ /* Castleland (by Dionyus5) */
-/* background-image: url(http://i.imgur.com/ILrUcVK.png)*/ /* Chillout Mixer Christmas */
-/* background-image: url(http://i.imgur.com/nb4ibg4.png)*/ /* Chillout Mixer Chriatmas Lite */
-/* background-image: url(http://i.imgur.com/nptZvUk.png)*/ /* Chillout Mixer Theme */
-/* background-image: url(http://i.imgur.com/mL0fuwb.png)*/ /* Chillout Mixer Theme II */
-/* background-image: url(http://i.imgur.com/2Q89Rn2.png)*/ /* Christmas Classic */
-/* background-image: url(http://i.imgur.com/tOEACrk.png)*/ /* Digital Desert */
-/* background-image: url(http://i.imgur.com/zSMRtE6.png)*/ /* Digital Dungeon (Lite) */
-/* background-image: url(http://i.imgur.com/WTylHRy.png)*/ /* Digital Dungeon */
-/* background-image: url(http://i.imgur.com/6N7svVu.png)*/ /* End of Line Club */
-/* background-image: url(http://i.imgur.com/XZNVZmj.png)*/ /* Fairytale Land */
-/* background-image: url(http://i.imgur.com/9DVTnnW.png)*/ /* Mordor */
-/* background-image: url(http://i.imgur.com/8G44P7F.png)*/ /* (No Theme) Black */
-/* background-image: url(http://i.imgur.com/md2nlVM.png)*/ /* (No Theme) Mixer */
-/* background-image: url(http://i.imgur.com/zuRZwYR.png)*/ /* (No Theme) Plug */
-/* background-image: url(http://i.imgur.com/JZjGLPH.png)*/ /* Off The Grid V1 */
-/* background-image: url(http://i.imgur.com/M4Z45oA.png)*/ /* Off The Grid V2 */
-/* background-image: url(http://i.imgur.com/EFXFnql.png)*/ /* Orbital Lounge */
-/* background-image: url(http://i.imgur.com/P4GVhF4.png)*/ /* plug.dj Christmas Classic */
-/* background-image: url(http://i.imgur.com/M0CeHah.png)*/ /* plug.dj Chriatmas Ice */
-/* background-image: url(http://i.imgur.com/lK4GttQ.png)*/ /* Red Rocks Theme */
-/* background-image: url(http://i.imgur.com/N82wzhY.png)*/ /* Skygazer Theme */
-/* background-image: url(http://i.imgur.com/k9zVa92.png)*/ /* Skygazer Theme (Lite) */
-/* background-image: url(http://i.imgur.com/GZKgCpk.png)*/ /* TT.fm After Party Theme */
-/* background-image: url(http://i.imgur.com/u36VR4n.png)*/ /* TT.fm Red Theme */
-/* background-image: url(http://i.imgur.com/zlLjMmN.jpg)*/ /* BONUS: TASTYCAT */
-/* background-image: url(http://i.imgur.com/sfU5X2Q.jpg)*/ /* BONUS: HALLOWEEN '14 */
-/* background-image: url(http://i.imgur.com/hjtFKu3.jpg)*/ /* BONUS: WINTER '13 */
-/* background-image: url(http://i.imgur.com/S9qLJLn.jpg)*/ /* BONUS: WINTER '14 */
+/* background: url(http://i.imgur.com/XBOeBE8.jpg) Lost Island */
+/* background: url(http://i.imgur.com/cwHjuod.png) Custom Winter */
+/* background: url(http://i.imgur.com/kmmPWiS.jpg) Plug.dj Old Default */
+/* background: url(http://i.imgur.com/1aw3xcd.png) Abandoned Ballroom */
+/* background: url(http://i.imgur.com/HG8mqaM.png) Ancient Ruins */
+/* background: url(http://i.imgur.com/8hfUntO.png) Architect Chamber */
+/* background: url(http://i.imgur.com/XjiQctM.png) Bomb Shelter */
+/* background: url(http://i.imgur.com/jNRQXKZ.png) Castleland (By Dionyus5) */
+/* background: url(http://i.imgur.com/ILrUcVK.png) Chillout Mixer Christmas */
+/* background: url(http://i.imgur.com/nb4ibg4.png) Chillout Mixer Chriatmas Lite */
+/* background: url(http://i.imgur.com/nptZvUk.png) Chillout Mixer Theme */
+/* background: url(http://i.imgur.com/mL0fuwb.png) Chillout Mixer Theme II */
+/* background: url(http://i.imgur.com/2Q89Rn2.png) Christmas Classic */
+/* background: url(http://i.imgur.com/tOEACrk.png) Digital Desert */
+/* background: url(http://i.imgur.com/zSMRtE6.png) Digital Dungeon (Lite) */
+/* background: url(http://i.imgur.com/WTylHRy.png) Digital Dungeon */
+/* background: url(http://i.imgur.com/6N7svVu.png) End Of Line Club */
+/* background: url(http://i.imgur.com/XZNVZmj.png) Fairytale Land */
+/* background: url(http://i.imgur.com/9DVTnnW.png) Mordor */
+/* background: url(http://i.imgur.com/8G44P7F.png) (No Theme) Black */
+/* background: url(http://i.imgur.com/md2nlVM.png) (No Theme) Mixer */
+/* background: url(http://i.imgur.com/zuRZwYR.png) (No Theme) Plug */
+/* background: url(http://i.imgur.com/JZjGLPH.png) Off The Grid V1 */
+/* background: url(http://i.imgur.com/M4Z45oA.png) Off The Grid V2 */
+/* background: url(http://i.imgur.com/EFXFnql.png) Orbital Lounge */
+/* background: url(http://i.imgur.com/P4GVhF4.png) Plug.dj Christmas Classic */
+/* background: url(http://i.imgur.com/M0CeHah.png) Plug.dj Chriatmas Ice */
+/* background: url(http://i.imgur.com/lK4GttQ.png) Red Rocks Theme */
+/* background: url(http://i.imgur.com/N82wzhY.png) Skygazer Theme */
+/* background: url(http://i.imgur.com/k9zVa92.png) Skygazer Theme (Lite) */
+/* background: url(http://i.imgur.com/GZKgCpk.png) TT.fm After Party Theme */
+/* background: url(http://i.imgur.com/u36VR4n.png) TT.fm Red Theme */
+/* background: url(http://i.imgur.com/zlLjMmN.jpg) BONUS: TASTYCAT */
+/* background: url(http://i.imgur.com/sfU5X2Q.jpg) BONUS: HALLOWEEN '14 */
+/* background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13 */
+/* background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14 */
 /* NOTES:
-/* try cmd deletion off / false
-/* make compatible with radient script and Basicbot
-/* edit boosted bars
-/* rainbow text    .app-right .friends .header span
-/* #playback .background img {top: 4000px} */
-/* d8dbf8bf38a76f7a1f4a0eabf46def5dd6279b16 "robot07" a.k.a, Brown and yellow robot
-/* span.emoji-1f346 eggplant
-/* Fix In history songs red color
-/* span.emoji-2615{
-background: url(http://i.imgur.com/34ZjpvK.png)}
-span.emoji-2615{
-animation: steam 3s steps(5,end) infinite;
--webkit-animation: steam 3s infinite;}
-@keyframes steam{
-from {background-position: 0px 0px;}
-to {background-position: -80px 0px;}}
-@-webkit-keyframes steam{
-from {background-position: 0px 0px;}
-to {background-position: -80px 0px;}} */
+
+Make compatible with radient script and Basicbot.
+  
+Edit boosted XP bars
+  
+Do rainbow text for:  ".app-right .friends .header span"
+  
+Eggplant= span.emoji-1f346            */
 #dialog-playlist-create .dialog-input-background input{
 color: rgb(255, 0, 0)}
 #chat-messages{
