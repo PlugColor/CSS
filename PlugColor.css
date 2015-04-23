@@ -1,59 +1,57 @@
-/* Want Video border gone then remove the /* (from the line below)*/
-/* #playback .background img {top: 4000px} */
-/* Change the background with the line (below) */
+/*| playback: url(http://i.imgur.com/sfU5X2Q.jpg) Bonus: Halloween '14 |*/
+/* Want Video border gone then remove the ("/*" from the line below) | *The setting is off at the moment* |*/
+#playback .background img{
+display: none;}
+/*| Change the background with the line (below) |*/
 #room .room-background{
-background: url(http://giant.gfycat.com/FixedWindingAmericanwigeon.gif)!important;}
-/* background: url(http://i.imgur.com/XBOeBE8.jpg) Lost Island */
-/* background: url(http://i.imgur.com/cwHjuod.png) Custom Winter */
-/* background: url(http://i.imgur.com/kmmPWiS.jpg) Plug.dj Old Default */
-/* background: url(http://i.imgur.com/1aw3xcd.png) Abandoned Ballroom */
-/* background: url(http://i.imgur.com/HG8mqaM.png) Ancient Ruins */
-/* background: url(http://i.imgur.com/8hfUntO.png) Architect Chamber */
-/* background: url(http://i.imgur.com/XjiQctM.png) Bomb Shelter */
-/* background: url(http://i.imgur.com/jNRQXKZ.png) Castleland (By Dionyus5) */
-/* background: url(http://i.imgur.com/ILrUcVK.png) Chillout Mixer Christmas */
-/* background: url(http://i.imgur.com/nb4ibg4.png) Chillout Mixer Chriatmas Lite */
-/* background: url(http://i.imgur.com/nptZvUk.png) Chillout Mixer Theme */
-/* background: url(http://i.imgur.com/mL0fuwb.png) Chillout Mixer Theme II */
-/* background: url(http://i.imgur.com/2Q89Rn2.png) Christmas Classic */
-/* background: url(http://i.imgur.com/tOEACrk.png) Digital Desert */
-/* background: url(http://i.imgur.com/zSMRtE6.png) Digital Dungeon (Lite) */
-/* background: url(http://i.imgur.com/WTylHRy.png) Digital Dungeon */
-/* background: url(http://i.imgur.com/6N7svVu.png) End Of Line Club */
-/* background: url(http://i.imgur.com/XZNVZmj.png) Fairytale Land */
-/* background: url(http://i.imgur.com/9DVTnnW.png) Mordor */
-/* background: url(http://i.imgur.com/8G44P7F.png) (No Theme) Black */
-/* background: url(http://i.imgur.com/md2nlVM.png) (No Theme) Mixer */
-/* background: url(http://i.imgur.com/zuRZwYR.png) (No Theme) Plug */
-/* background: url(http://i.imgur.com/JZjGLPH.png) Off The Grid V1 */
-/* background: url(http://i.imgur.com/M4Z45oA.png) Off The Grid V2 */
-/* background: url(http://i.imgur.com/EFXFnql.png) Orbital Lounge */
-/* background: url(http://i.imgur.com/P4GVhF4.png) Plug.dj Christmas Classic */
-/* background: url(http://i.imgur.com/M0CeHah.png) Plug.dj Chriatmas Ice */
-/* background: url(http://i.imgur.com/lK4GttQ.png) Red Rocks Theme */
-/* background: url(http://i.imgur.com/N82wzhY.png) Skygazer Theme */
-/* background: url(http://i.imgur.com/k9zVa92.png) Skygazer Theme (Lite) */
-/* background: url(http://i.imgur.com/GZKgCpk.png) TT.fm After Party Theme */
-/* background: url(http://i.imgur.com/u36VR4n.png) TT.fm Red Theme */
-/* background: url(http://i.imgur.com/zlLjMmN.jpg) BONUS: TASTYCAT */
-/* background: url(http://i.imgur.com/sfU5X2Q.jpg) BONUS: HALLOWEEN '14 */
-/* background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13 */
-/* background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14 */
-/* NOTES:
+background: url(http://i.imgur.com/9DVTnnW.png)!important;}
+/*| background: url(http://giant.gfycat.com/FixedWindingAmericanwigeon.gif) Trees Gif |*/
+/*| background: url(http://i.imgur.com/nb4ibg4.png) Chillout Mixer Chriatmas Lite |*/
+/*| background: url(http://i.imgur.com/P4GVhF4.png) Plug.dj Christmas Classic |*/
+/*| background: url(http://i.imgur.com/jNRQXKZ.png) Castleland (By Dionyus5) |*/
+/*| background: url(http://i.imgur.com/ILrUcVK.png) Chillout Mixer Christmas |*/ 
+/*| background: url(http://i.imgur.com/mL0fuwb.png) Chillout Mixer Theme II |*/
+/*| background: url(http://i.imgur.com/GZKgCpk.png) TT.fm After Party Theme |*/
+/*| background: url(http://i.imgur.com/zSMRtE6.png) Digital Dungeon (Lite) |*/
+/*| background: url(http://i.imgur.com/M0CeHah.png) Plug.dj Christmas Ice |*/
+/*| background: url(http://i.imgur.com/k9zVa92.png) Skygazer Theme (Lite) |*/
+/*| background: url(http://i.imgur.com/nptZvUk.png) Chillout Mixer Theme |*/
+/*| background: url(http://i.imgur.com/kmmPWiS.jpg) Plug.dj Old Default |*/
+/*| background: url(http://i.imgur.com/1aw3xcd.png) Abandoned Ballroom |*/
+/*| background: url(http://i.imgur.com/8hfUntO.png) Architect Chamber |*/
+/*| background: url(http://i.imgur.com/hjtFKu3.jpg) Bonus: Winter '13 |*/
+/*| background: url(http://i.imgur.com/S9qLJLn.jpg) Bonus: Winter '14 |*/
+/*| background: url(http://i.imgur.com/2Q89Rn2.png) Christmas Classic |*/
+/*| background: url(http://i.imgur.com/6N7svVu.png) End Of Line Club |*/
+/*| background: url(http://i.imgur.com/8G44P7F.png) (No Theme) Black |*/
+/*| background: url(http://i.imgur.com/md2nlVM.png) (No Theme) Mixer |*/
+/*| background: url(http://i.imgur.com/zlLjMmN.jpg) Bonus: Tastycat |*/
+/*| background: url(http://i.imgur.com/WTylHRy.png) Digital Dungeon |*/
+/*| background: url(http://i.imgur.com/JZjGLPH.png) Off The Grid V1 |*/
+/*| background: url(http://i.imgur.com/M4Z45oA.png) Off The Grid V2 |*/
+/*| background: url(http://i.imgur.com/lK4GttQ.png) Red Rocks Theme |*/
+/*| background: url(http://i.imgur.com/u36VR4n.png) TT.fm Red Theme |*/
+/*| background: url(http://i.imgur.com/zuRZwYR.png) (No Theme) Plug |*/
+/*| background: url(http://i.imgur.com/tOEACrk.png) Digital Desert |*/
+/*| background: url(http://i.imgur.com/XZNVZmj.png) Fairytale Land |*/
+/*| background: url(http://i.imgur.com/EFXFnql.png) Orbital Lounge |*/
+/*| background: url(http://i.imgur.com/N82wzhY.png) Skygazer Theme |*/
+/*| background: url(http://i.imgur.com/HG8mqaM.png) Ancient Ruins |*/
+/*| background: url(http://i.imgur.com/cwHjuod.png) Custom Winter |*/
+/*| background: url(http://i.imgur.com/XjiQctM.png) Bomb Shelter |*/
+/*| background: url(http://i.imgur.com/XBOeBE8.jpg) Lost Island |*/
+/*| background: url(http://i.imgur.com/9DVTnnW.png) Mordor |*/
+/*| NOTES:
 
-Make compatible with radient script and Basicbot.
-  
+Make compatible with Radient Script.
 Edit boosted XP bars
-  
 Do rainbow text for:  ".app-right .friends .header span"
-  
-Eggplant= span.emoji-1f346            */
+Eggplant= span.emoji-1f346 |*/
+
 #dialog-playlist-create .dialog-input-background input{
 color: rgb(255, 0, 0)}
 #chat-messages{
 border-bottom: none;}
-#footer-user .buttons .button.settings, #footer-user .buttons .button.profile, #footer-user .buttons .button.badge, #footer-user .buttons .button.inventory, #footer-user .buttons .button.store{
-box-shadow: none;}
 #app-menu .list .item span{
 color: rgb(100, 160, 230);}
 #app-menu .list .logout{
@@ -77,16 +75,6 @@ color: rgb(160, 240, 230) !important;
 background-color: rgba(0, 0, 0, 1) !important;}
 #p3-settings-custom-colors .container .item span{
 color: rgb(40, 140, 210) !important;}
-#p3-settings .header .title span.version, #p3-settings-custom-colors .container .section{
-color: rgb(240, 40, 210) !important;}
-#p3-settings .header .title span, #p3-settings-custom-colors .header .title span{
-color: rgb(0, 255, 0) !important;}
-#p3-settings .container .item span{
-color: rgb(120, 0, 240)}
-#p3-settings, #p3-settings-custom-colors{
-background: rgba(10, 10, 10, 0.70) !Important;}
-#p3-settings .header, #p3-settings .header .back, #p3-settings-custom-colors .header{
-background: rgba(0, 0, 0, 0.0) !Important;}
 span.emoji-1f475{
 width: 32px;
 height: 32px;}
@@ -206,7 +194,45 @@ background: transparent !important;}
 background-color: transparent !important;}
 .user-content .tab-menu button{
 color: #925AFF;}
-#footer-user .meta .label, #footer-user .meta div, #footer-user .meta div.bar, #footer .bar-button .section span, #room .app-header, .app-right .friends .list .row .room,
+#footer-user .meta div{
+color: rgb(0, 255, 170)}
+#waitlist-button .count{
+color: rgb(0, 215, 75)}
+#playlist-menu .menu .row .count{
+color: rgb(250, 180, 15)}
+#chat .log .text{
+color: rgb(255, 40, 160)}
+#chat .user-action{
+color: rgb(240, 10, 40)}
+#chat .from .un, #chat .from.you .un{
+color: rgb(155, 210, 80)}
+#user-friends .list .row .joined{
+color: rgb(180, 150, 240)}
+#user-friends .list .row .level span, .dropdown dt span.level{
+color: rgb(0, 255, 255)}
+.communities .grid .cell .population div span, .experience .description{
+color: rgb(50, 250, 250)}
+.media-list.history .meta .author, #footer-user .menu .item span{
+color: rgb(70, 175, 210)}
+#user-rollover .meta.gaming .status span{
+color: rgb(200, 70, 230)}
+#twitter-menu ul{
+background-color: rgba(29, 173, 234, 0.50) !Important;}
+#room-settings .general-settings :not(.enabled) button.off{
+background-color: rgba(0, 156, 221, 0.50) !important;}
+#room-settings .general-settings .enabled button.on{
+background-color: rgba(240, 79, 48, 0.50) !important;}
+#meh .label{
+color: rgb(140, 10, 30)}
+#woot .label{
+color: rgb(20, 140, 10)} 
+#waitlist .header .title, #user-lists .list-header .title, #user-lists .list-header .count{
+color: rgb(30, 230, 255)}
+.dark-label{
+color: rgb(172, 118, 255) !important;}
+#playlist-menu span{
+color: rgb(230, 240, 50)}
+#room .app-header, .app-right .friends .list .row .room,
 #room-settings .general-settings .value, .app-right .friends .list .row .name span, .is-dj .name, .is-staff .name, #user-lists .list.staff .user .name, #chat-messages .timestamp,
 #footer-user .menu .item, #room-settings-menu .item .label, #room-loader span, #user-menu .item .label, #media-panel .header .title, #toast-notifications, .media-list.history .meta .name
 .social-menu li span, .user-content.profile .meta .username, #user-friends .list .row .name span, #user-lists .list.bans .user .moderator{
@@ -242,26 +268,36 @@ color: rgb(240, 20, 20)}
 color: rgb(180, 45, 220)}
 .communities .grid .cell .meta .now-playing, .experience .xp .next-level, .communities .grid .cell.no-media .now-playing{
 color: rgb(0, 255, 0)}
-#waitlist-button .count{
-color: rgb(0, 215, 75)}
-#playlist-menu .menu .row .count{
-color: rgb(250, 180, 15)}
-#chat .log .text{
-color: rgb(255, 40, 160)}
-#chat .user-action{
-color: rgb(240, 10, 40)}
-#chat .from .un, #chat .from.you .un{
-color: rgb(155, 210, 80)}
-#user-friends .list .row .joined{
-color: rgb(180, 150, 240)}
-#user-friends .list .row .level span, #footer-user .info .name span, .dropdown dt span.level{
-color: rgb(0, 255, 255)}
-.communities .grid .cell .population div span, .experience .description{
-color: rgb(50, 250, 250)}
-.media-list.history .meta .author, #footer-user .menu .item span{
-color: rgb(70, 175, 210)}
-#user-rollover .meta.gaming .status span{
-color: rgb(200, 70, 230)}
+#user-view .user-content{
+box-shadow: inset 1px 0px 0px 0px rgb(0, 0, 0) !important;}
+#playlist-menu .menu{
+box-shadow: inset 0px 1px 0px 0px rgb(0, 0, 0) !important;}
+#facebook-menu ul{
+background-color: rgba(59, 89, 152, 0.50) !Important;}
+#user-lists .list.bans .user:hover > .unban{
+color: rgb(255,255,0)}
+#user-lists .list.bans .user .timestamp{
+color: rgb(255,160,45);}
+#history-panel .row:hover .name, #history-panel .row:hover .timestamp{
+display: none !Important;}
+#room .app-right, #chat-messages .badge-box, #chat-messages .system, #facebook-menu li, #twitter-menu li, .badge-box, #app-menu{
+background-color: transparent !Important;}
+#chat-header{
+background-color: rgba(0, 0, 0, 0.35) !important;}
+#youtube-input-field{
+color: rgb(255, 0, 0)}
+#p3-settings .header .title span.version, #p3-settings-custom-colors .container .section{
+color: rgb(240, 40, 210) !important;}
+#p3-settings .header .title span, #p3-settings-custom-colors .header .title span{
+color: rgb(0, 255, 0) !important;}
+#p3-settings .container .item span{
+color: rgb(120, 0, 240)}
+#p3-settings, #p3-settings-custom-colors{
+background: rgba(10, 10, 10, 0.70) !Important;}
+#p3-settings .header, #p3-settings .header .back, #p3-settings-custom-colors .header{
+background: rgba(0, 0, 0, 0.0) !Important;}
+#import-youtube .button{
+background-color: rgba(40, 200, 255, 0.8) !important;}
 #playlist-edit-button:hover{
 background-image: linear-gradient(rgba(0, 181, 230, 0.50) 0px, rgba(0, 156, 221, 0.50) 100%) !important;}
 #playlist-shuffle-button:hover{
@@ -283,49 +319,15 @@ width: 14px !Important;
 height: 14px !Important;
 top: 12px !Important;
 left: -8px !important;}
-#twitter-menu ul{
-background-color: rgba(29, 173, 234, 0.50) !Important;}
-#room-settings .general-settings :not(.enabled) button.off{
-background-color: rgba(0, 156, 221, 0.50) !important;}
-#room-settings .general-settings .enabled button.on{
-background-color: rgba(240, 79, 48, 0.50) !important;}
-#meh .label{
-color: rgb(140, 10, 30)}
-#woot .label{
-color: rgb(20, 140, 10)} 
-#waitlist .header .title, #user-lists .list-header .title, #user-lists .list-header .count{
-color: rgb(30, 230, 255)}
-.dark-label{
-color: rgb(172, 118, 255) !important;}
-#playlist-menu span{
-color: rgb(230, 240, 50)}
-#user-view .user-content{
-box-shadow: inset 1px 0px 0px 0px rgb(0, 0, 0) !important;}
-#playlist-menu .menu{
-box-shadow: inset 0px 1px 0px 0px rgb(0, 0, 0) !important;}
-#facebook-menu ul{
-background-color: rgba(59, 89, 152, 0.50) !Important;}
-#waitlist .header .position .current:nth-child(odd), #waitlist .header .count:nth-child(odd), #waitlist .header .position .current:nth-child(even), #waitlist .header .count:nth-child(even),
-#user-lists .list.bans .user .name{
-color: red;}
-#user-lists .list.bans .user:hover > .unban{
-color: rgb(255,255,0)}
-#user-lists .list.bans .user .timestamp{
-color: rgb(255,160,45);}
-#history-panel .row:hover .name, #history-panel .row:hover .timestamp{
-display: none !Important;}
-#room .app-right, #chat-messages .badge-box, #chat-messages .system, #facebook-menu li, #twitter-menu li, .badge-box, #app-menu{
-background-color: transparent !Important;}
-#chat-header{
-background-color: rgba(0, 0, 0, 0.35) !important;}
-#youtube-input-field{
-color: rgb(255, 0, 0)}
-#import-youtube .button{
-background-color: rgba(40, 200, 255, 0.8) !important;}
 #import-youtube .button:hover{
 background-color: rgba(20, 150, 255, 1) !important;}
 #history-button{
 background-color: rgba(0, 0, 0, 0.25) !important;}
+#waitlist .header .position .current:nth-child(odd), #waitlist .header .count:nth-child(odd), #waitlist .header .position .current:nth-child(even), #waitlist .header .count:nth-child(even),
+#user-lists .list.bans .user .name{
+color: red;}
+#footer-user .buttons .button.settings, #footer-user .buttons .button.profile, #footer-user .buttons .button.badge, #footer-user .buttons .button.inventory, #footer-user .buttons .button.store{
+box-shadow: none;}
 #header-panel-bar .header-panel-button.selected, #toast-notifications .notification .right, #user-lists, #app .app-right .friends, #app .app-right .friends .row, #user-menu .item.selected,
 #app .app-right .friends.has-requests .header, #app .app-right .header, #app .list-header, #app .app-right .user, #playlist-panel, #playlist-menu, #playlist-menu .button, #history-panel,
 #playlist-edit-button:not(:hover), #playlist-shuffle-button:not(:hover), #playlist-delete-button:not(:hover), #playlist-activate-button.button:not(.active):hover, #playlist-panel .row.selected,
@@ -350,7 +352,7 @@ background-color: rgba(0, 0, 0, 0.50) !important;}
 #app .app-right .header{
 background-color: rgba(0, 0, 0, 0.75) !important;}
 #playlist-menu .title, #history-panel .timestamp, #user-view.app-left > #user-history .timestamp, #user-view.app-left > #user-store :not(.tab-menu) button:hover,
-#user-view.app-left > #the-user-profile button:hover, #user-view.app-left > #the-user-profile .points .pp .label, #user-view.app-left .header span:first-child,
+#user-view.app-left > #the-user-profile button:hover, #user-view.app-left > #the-user-profile .points .pp .label, #user-view.app-left .header span:first-child, #your-active-playlist span,
 #user-view.app-left .tab-menu button.selected, #user-view.app-left > #user-communities .message a, #room-settings .title, #user-view.app-left > #the-user-profile .boost .label{
 color: rgb(219,24,47) !important;}
 #filter > SPAN, #user-view.app-left > #user-settings .item span, #user-view.app-left > #user-settings .cap span, #user-view.app-left > #user-communities .message{
