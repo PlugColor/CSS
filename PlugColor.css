@@ -1,10 +1,8 @@
 /* playback: url(http://i.imgur.com/sfU5X2Q.jpg) Bonus: Halloween '14 */
 /* playback: url(http://i.imgur.com/uz8tIxs.png) Underwater */
-/* Want Video border gone then remove the ("/*" from the line below)  */
-/*
-#playback .background img{
-display: none;}
-*/
+/* Want Video border gone then remove the ("*/  /*", from the line below)  */
+/*#playback .background img{
+display: none;}*/
 /*| Change the background with the line (below) | */
 #room .room-background{
 background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
