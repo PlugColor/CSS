@@ -1,10 +1,13 @@
-/*| playback: url(http://i.imgur.com/sfU5X2Q.jpg) Bonus: Halloween '14 |*/
-/* Want Video border gone then remove the ("/*" from the line below) | *The setting is off at the moment* |*/
+/* playback: url(http://i.imgur.com/sfU5X2Q.jpg) Bonus: Halloween '14 */
+/* Want Video border gone then remove the ("/*" from the line below)  */
+/*
 #playback .background img{
 display: none;}
-/*| Change the background with the line (below) |*/
+*/
+/*| Change the background with the line (below) | */
 #room .room-background{
-background: url(http://i.imgur.com/9DVTnnW.png)!important;}
+background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
+/*| background: url(http://i.imgur.com/vVNoj9h.jpg) Underwater Theme |*/
 /*| background: url(http://giant.gfycat.com/FixedWindingAmericanwigeon.gif) Trees Gif |*/
 /*| background: url(http://i.imgur.com/nb4ibg4.png) Chillout Mixer Chriatmas Lite |*/
 /*| background: url(http://i.imgur.com/P4GVhF4.png) Plug.dj Christmas Classic |*/
@@ -82,17 +85,6 @@ span.emoji-1f475{
 display: block;}
 span.emoji-1f475{
 background: url(http://i.imgur.com/jKx89ya.png)}
-span.emoji-1f34c{
-background: url(http://i.imgur.com/PGcaSQB.png)}
-span.emoji-1f34c{
-animation: banana 0.75s steps(2,end) infinite;
--webkit-animation: banana 1s steps(2,end) infinite;}
-@keyframes banana{
-from {background-position: 0px 0px;}
-to {background-position: -32px 0px;}}
-@-webkit-keyframes banana{
-from {background-position: 0px 0px;;}
-to {background-position: -32px 0px;;}}
 span.emoji-1f525{
 animation: fire 4s forwards infinite;
 -webkit-animation: fire 6s forwards infinite;}
