@@ -1,12 +1,16 @@
-/* playback: url(http://i.imgur.com/sfU5X2Q.jpg) Bonus: Halloween '14 */
-/* playback: url(http://i.imgur.com/uz8tIxs.png) Underwater */
-/* Want Video border gone then remove the ("*/  /*", from the line below)  */
-/*#playback .background img{
-display: none;}*/
-/*| Change the background with the line (below) | */
+/* remove the line below to remove the ocean background on the settings menu */
+#user-menu .avatar{
+background-image: url(http://th03.deviantart.net/fs71/PRE/i/2012/315/8/d/pre_made_background_underwater_stock_by_jeix_babes-d5knzi4.jpg)!important;}
+
+/* Want Video border gone then remove the ("/*" from the two lines below)  */
+/*  #playback .background img{
+    display: none;}            */
+/*| playback: url(http://i.imgur.com/sfU5X2Q.jpg) Bonus: Halloween '14 |*/
+/*| playback: url(http://i.imgur.com/uz8tIxs.png) Underwater |*/
+/* Change the background with the few lines (below) */
+
 #room .room-background{
 background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
-/*| background: url(http://i.imgur.com/vVNoj9h.jpg) Underwater |*/
 /*| background: url(http://giant.gfycat.com/FixedWindingAmericanwigeon.gif) Trees Gif |*/
 /*| background: url(http://i.imgur.com/nb4ibg4.png) Chillout Mixer Chriatmas Lite |*/
 /*| background: url(http://i.imgur.com/P4GVhF4.png) Plug.dj Christmas Classic |*/
@@ -42,14 +46,19 @@ background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
 /*| background: url(http://i.imgur.com/cwHjuod.png) Custom Winter |*/
 /*| background: url(http://i.imgur.com/XjiQctM.png) Bomb Shelter |*/
 /*| background: url(http://i.imgur.com/XBOeBE8.jpg) Lost Island |*/
+/*| background: url(http://i.imgur.com/vVNoj9h.jpg) Underwater |*/
 /*| background: url(http://i.imgur.com/9DVTnnW.png) Mordor |*/
-/*| NOTES:
-
+/* NOTES:
 Make compatible with Radient Script.
 Edit boosted XP bars
 Do rainbow text for:  ".app-right .friends .header span"
-Eggplant= span.emoji-1f346 |*/
-
+Eggplant= span.emoji-1f346                               */
+#room-name{
+color: rgb(230, 70, 90)}
+#volume span{
+color: rgb(130, 220, 120)}
+#your-active-playlist span{
+color: rgb(35, 200, 200)}
 #dialog-playlist-create .dialog-input-background input{
 color: rgb(255, 0, 0)}
 #chat-messages{
@@ -187,8 +196,6 @@ background-color: transparent !important;}
 color: #925AFF;}
 #footer-user .meta div{
 color: rgb(0, 255, 170)}
-#waitlist-button .count{
-color: rgb(0, 215, 75)}
 #playlist-menu .menu .row .count{
 color: rgb(250, 180, 15)}
 #chat .log .text{
@@ -223,11 +230,14 @@ color: rgb(30, 230, 255)}
 color: rgb(172, 118, 255) !important;}
 #playlist-menu span{
 color: rgb(230, 240, 50)}
-#room .app-header, .app-right .friends .list .row .room,
-#room-settings .general-settings .value, .app-right .friends .list .row .name span, .is-dj .name, .is-staff .name, #user-lists .list.staff .user .name, #chat-messages .timestamp,
-#footer-user .menu .item, #room-settings-menu .item .label, #room-loader span, #user-menu .item .label, #media-panel .header .title, #toast-notifications, .media-list.history .meta .name
-.social-menu li span, .user-content.profile .meta .username, #user-friends .list .row .name span, #user-lists .list.bans .user .moderator{
+.app-right .friends .list .row .room, #room-settings .general-settings .value, .app-right .friends .list .row .name span, .is-dj .name, .is-staff .name, 
+#user-lists .list.staff .user .name, #chat-messages .timestamp, #footer-user .menu .item, #room-settings-menu .item .label, #room-loader span, #user-menu .item .label, #media-panel .header .title, #toast-notifications, .media-list.history .meta .name .social-menu li span, .user-content.profile .meta .username, #user-friends .list .row .name span, 
+#user-lists .list.bans .user .moderator, #room-host, #now-playing-dj, #now-playing-time span{
 color: rgb(51, 215, 73)}
+#now-playing-media{
+color: rgb(240, 70, 220)}
+#users-button span, #waitlist-button span, #waitlist-button .count{
+color: rgb(40, 130, 220)}
 #user-friends .list .row .level .label, .user-content.profile .meta .joined, #user-settings .container .refresh, #user-settings .container label, #waitlist .header .count,
 #waitlist .header .position .current, #user-rollover .meta .joined, #user-rollover .info .level .label{
 color: rgb(255, 255, 255)}
@@ -242,7 +252,7 @@ color: rgb(255, 255, 10)}
 color: rgb(255, 30, 180)}
 .experience .xp .bar .value{
 color: rgb(255, 0, 200)}
-.app-right .friends .list .row.is-offline .name span, #user-lists .list.staff .group span, #user-rollover.is-staff .info .role span, #now-playing-media{
+.app-right .friends .list .row.is-offline .name span, #user-lists .list.staff .group span, #user-rollover.is-staff .info .role span{
 color: rgb(255, 50, 250)}
 #user-inventory .history .list .row .meta .col span, #user-store .grid .cell .price .label{
 color: rgb(255, 100, 0)}
@@ -343,7 +353,7 @@ background-color: rgba(0, 0, 0, 0.50) !important;}
 #app .app-right .header{
 background-color: rgba(0, 0, 0, 0.75) !important;}
 #playlist-menu .title, #history-panel .timestamp, #user-view.app-left > #user-history .timestamp, #user-view.app-left > #user-store :not(.tab-menu) button:hover,
-#user-view.app-left > #the-user-profile button:hover, #user-view.app-left > #the-user-profile .points .pp .label, #user-view.app-left .header span:first-child, #your-active-playlist span,
+#user-view.app-left > #the-user-profile button:hover, #user-view.app-left > #the-user-profile .points .pp .label, #user-view.app-left .header span:first-child,
 #user-view.app-left .tab-menu button.selected, #user-view.app-left > #user-communities .message a, #room-settings .title, #user-view.app-left > #the-user-profile .boost .label{
 color: rgb(219,24,47) !important;}
 #filter > SPAN, #user-view.app-left > #user-settings .item span, #user-view.app-left > #user-settings .cap span, #user-view.app-left > #user-communities .message{
