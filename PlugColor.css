@@ -1,14 +1,10 @@
-/* remove the line below to remove the ocean background on the settings menu */
-#user-menu .avatar{
-background-image: url(http://th03.deviantart.net/fs71/PRE/i/2012/315/8/d/pre_made_background_underwater_stock_by_jeix_babes-d5knzi4.jpg)!important;}
-
 /* Want Video border gone then remove the ("/*" from the two lines below)  */
-/*  #playback .background img{
-    display: none;}            */
+/* #playback .background img{
+display: none;} */
 /*| playback: url(http://i.imgur.com/sfU5X2Q.jpg) Bonus: Halloween '14 |*/
 /*| playback: url(http://i.imgur.com/uz8tIxs.png) Underwater |*/
-/* Change the background with the few lines (below) */
-
+/*| playback: url(http://i.imgur.com/Ks86Vhn.png) Winter '14 |*/
+/* Change the background with the 2 lines (below): */
 #room .room-background{
 background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
 /*| background: url(http://giant.gfycat.com/FixedWindingAmericanwigeon.gif) Trees Gif |*/
@@ -52,7 +48,9 @@ background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
 Make compatible with Radient Script.
 Edit boosted XP bars
 Do rainbow text for:  ".app-right .friends .header span"
-Eggplant= span.emoji-1f346                               */
+Eggplant= span.emoji-1f346  */
+.user-content .header span{
+color: rgb(255, 255, 0)}
 #room-name{
 color: rgb(230, 70, 90)}
 #volume span{
@@ -309,6 +307,10 @@ background-image: linear-gradient(rgba(244, 107, 64, 0.50) 0px, rgba(240, 79, 48
 color: rgb(105, 235, 115)}
 #user-rollover .meta .username{
 color: rgb(70, 175, 210)}
+#user-friends .list .row .buttons button:nth-child(odd):hover{
+color: blue;}
+#user-friends .list .row .buttons button:nth-child(even):hover{
+color: red;}
 #playlist-button{
 background-image: linear-gradient(rgba(172, 118, 255, 0.70) 0px, rgba(146, 90, 255, 0.70) 100%) !important;}
 #footer-user .ep{
@@ -353,8 +355,8 @@ background-color: rgba(0, 0, 0, 0.50) !important;}
 #app .app-right .header{
 background-color: rgba(0, 0, 0, 0.75) !important;}
 #playlist-menu .title, #history-panel .timestamp, #user-view.app-left > #user-history .timestamp, #user-view.app-left > #user-store :not(.tab-menu) button:hover,
-#user-view.app-left > #the-user-profile button:hover, #user-view.app-left > #the-user-profile .points .pp .label, #user-view.app-left .header span:first-child,
-#user-view.app-left .tab-menu button.selected, #user-view.app-left > #user-communities .message a, #room-settings .title, #user-view.app-left > #the-user-profile .boost .label{
+#user-view.app-left > #the-user-profile button:hover, #user-view.app-left > #the-user-profile .points .pp .label, #user-view.app-left .tab-menu button.selected,
+#user-view.app-left > #user-communities .message a, #room-settings .title, #user-view.app-left > #the-user-profile .boost .label{
 color: rgb(219,24,47) !important;}
 #filter > SPAN, #user-view.app-left > #user-settings .item span, #user-view.app-left > #user-settings .cap span, #user-view.app-left > #user-communities .message{
 color: rgb(238, 238, 238) !important;}
