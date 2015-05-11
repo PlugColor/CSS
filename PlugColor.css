@@ -47,8 +47,11 @@ background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
 /*| background: url(http://i.imgur.com/9DVTnnW.png) Mordor |*/
 /* NOTES:
 Make compatible with Radient Script.
-Do rainbow text for:  ".app-right .friends .header span"
-Eggplant= span.emoji-1f346  */
+Do rainbow text for: ".app-right .friends .header span" */
+.user-content .header span{
+color: rgb(255, 25, 255)}
+#footer-user .meta div, .experience .xp .bar .value{
+color: rgb(255, 255, 0)}
 #chat .message, #chat .emote .text{
 color: rgb(60,255,255)}
 #chat .log .text{
@@ -60,8 +63,6 @@ color: rgb(170,0,255)}
 .chrome #now-playing-time i{
 height: 16px;
 margin-right: 12px;}
-.user-content .header span{
-color: rgb(255, 255, 0)}
 #room-name{
 color: rgb(230, 70, 90)}
 #volume span{
@@ -192,8 +193,6 @@ background: transparent !important;}
 background-color: transparent !important;}
 .user-content .tab-menu button{
 color: #925AFF;}
-#footer-user .meta div{
-color: rgb(0, 255, 170)}
 #playlist-menu .menu .row .count{
 color: rgb(250, 180, 15)}
 #chat .user-action{
@@ -208,8 +207,6 @@ color: rgb(0, 255, 255)}
 color: rgb(50, 250, 250)}
 .media-list.history .meta .author, #footer-user .menu .item span{
 color: rgb(70, 175, 210)}
-#user-rollover .meta.gaming .status span{
-color: rgb(200, 70, 230)}
 #twitter-menu ul{
 background-color: rgba(29, 173, 234, 0.50) !Important;}
 #room-settings .general-settings :not(.enabled) button.off{
@@ -219,7 +216,7 @@ background-color: rgba(240, 79, 48, 0.50) !important;}
 #meh .label{
 color: rgb(140, 10, 30)}
 #woot .label{
-color: rgb(20, 140, 10)} 
+color: rgb(20, 140, 10)}
 #waitlist .header .title, #user-lists .list-header .title, #user-lists .list-header .count{
 color: rgb(30, 230, 255)}
 .dark-label{
@@ -227,8 +224,9 @@ color: rgb(172, 118, 255) !important;}
 #playlist-menu span{
 color: rgb(230, 240, 50)}
 .app-right .friends .list .row .room, #room-settings .general-settings .value, .app-right .friends .list .row .name span, .is-dj .name, .is-staff .name, 
-#user-lists .list.staff .user .name, #chat-messages .timestamp, #footer-user .menu .item, #room-settings-menu .item .label, #room-loader span, #user-menu .item .label, #media-panel .header .title, #toast-notifications, .media-list.history .meta .name .social-menu li span, .user-content.profile .meta .username, #user-friends .list .row .name span, 
-#user-lists .list.bans .user .moderator, #room-host, #now-playing-dj, #now-playing-time span{
+#user-lists .list.staff .user .name, #chat-messages .timestamp, #footer-user .menu .item, #room-settings-menu .item .label, #room-loader span, #user-menu .item .label, #media-panel .header.title,
+#toast-notifications, .media-list.history .meta .name .social-menu li span, .user-content.profile .meta .username, #user-friends .list .row .name span, #user-lists .list.bans .user .moderator, 
+#room-host, #now-playing-dj, #now-playing-time span{
 color: rgb(51, 215, 73)}
 #now-playing-media{
 color: rgb(240, 70, 220)}
@@ -246,9 +244,9 @@ color: rgb(255, 30, 210)}
 color: rgb(255, 255, 10)}
 .communities .grid .cell .meta .room, .user-content.profile .meta.is-staff .role span{
 color: rgb(255, 30, 180)}
-.experience .xp .bar .value{
-color: rgb(255, 0, 200)}
-.app-right .friends .list .row.is-offline .name span, #user-lists .list.staff .group span, #user-rollover.is-staff .info .role span{
+.app-right .friends .list .row.is-offline .name span{
+color: rgb(255, 255, 255)}
+#user-lists .list.staff .group span, #user-rollover.is-staff .info .role span{
 color: rgb(255, 50, 250)}
 #user-inventory .history .list .row .meta .col span, #user-store .grid .cell .price .label{
 color: rgb(255, 100, 0)}
