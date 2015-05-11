@@ -4,12 +4,13 @@ display: none;} */
 /*| playback: url(http://i.imgur.com/sfU5X2Q.jpg) Bonus: Halloween '14 |*/
 /*| playback: url(http://i.imgur.com/uz8tIxs.png) Underwater |*/
 /*| playback: url(http://i.imgur.com/Ks86Vhn.png) Winter '14 |*/
-/* Change the background with the 2 lines (below): */
+/* Change the background with the 2 lines (below) */
 #room .room-background{
 background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
-/*| background: url(http://giant.gfycat.com/FixedWindingAmericanwigeon.gif) Trees Gif |*/
-/*| background: url(http://i.imgur.com/nb4ibg4.png) Chillout Mixer Chriatmas Lite |*/
-/*| background: url(http://i.imgur.com/P4GVhF4.png) Plug.dj Christmas Classic |*/
+/*| background: url(http://i.imgur.com/zlRI6SE.gif) /r/Trees Dancefloor Gif |*/
+/*| background: url(http://i.imgur.com/M38kz7V.png) Chillout Mixer Chriatmas Lite |*/
+/*| background: url(http://i.imgur.com/HoNXRW8.png) Plug.dj Christmas Classic |*/
+/*| background: url(http://i.imgur.com/D7ICrX9.jpg) Bonus: Winter '14 Purple |*/
 /*| background: url(http://i.imgur.com/jNRQXKZ.png) Castleland (By Dionyus5) |*/
 /*| background: url(http://i.imgur.com/ILrUcVK.png) Chillout Mixer Christmas |*/ 
 /*| background: url(http://i.imgur.com/mL0fuwb.png) Chillout Mixer Theme II |*/
@@ -46,9 +47,19 @@ background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
 /*| background: url(http://i.imgur.com/9DVTnnW.png) Mordor |*/
 /* NOTES:
 Make compatible with Radient Script.
-Edit boosted XP bars
 Do rainbow text for:  ".app-right .friends .header span"
 Eggplant= span.emoji-1f346  */
+#chat .message, #chat .emote .text{
+color: rgb(60,255,255)}
+#chat .log .text{
+color: rgb(255,0,210)}
+#chat .moderation{
+color: mediumvioletred;}
+#chat .welcome{
+color: rgb(170,0,255)}
+.chrome #now-playing-time i{
+height: 16px;
+margin-right: 12px;}
 .user-content .header span{
 color: rgb(255, 255, 0)}
 #room-name{
@@ -100,9 +111,6 @@ to {transform: translate(16px, 0px)}}
 @-webkit-keyframes fire{
 from {transform: translate(0px, 0px);}
 to {transform: translate(16px, 0px)}}
-.chrome #now-playing-time i{
-height: 16px;
-margin-right: 12px;}
 span.emoji-1f52b{
 background: url(http://i.imgur.com/YoWEpPE.png)}
 span.emoji-1f52b{
@@ -146,12 +154,6 @@ background:  linear-gradient(150deg, yellow, green, blue, indigo, violet, red, o
 background:  linear-gradient(150deg, green, blue, indigo, violet, red, orange, yellow) !important;}
 #chat-messages .mention.is-you{
 background: linear-gradient(135deg, rgb(255, 221, 111) 0px, transparent 13%) !important;}
-#chat-messages .mention.is-dj, #chat-messages .mention.is-staff{
-background: linear-gradient(135deg, rgb(172, 118, 255) 0px, transparent 13%) !important;}
-#chat-messages .mention.is-ambassador{
-background: linear-gradient(135deg, rgb(137, 190, 108) 0, transparent 13%) !important;}
-#chat-messages .mention.is-admin{
-background: linear-gradient(135deg, rgb(66, 165, 220) 0, transparent 13%) !important;}
 #now-playing-time i{
 height: 16px;
 margin-right: 16px;
@@ -165,8 +167,6 @@ display: none;}
 background-color: transparent !important;
 border-bottom: none !important;
 box-shadow: 0px 1px 0px 0px #0A0A0A inset !important;}
-#chat .welcome{
-color: #AC76FF}
 .media-list .row.in-history {
 color: #FF0000;
 font-family: arial;}
@@ -196,8 +196,6 @@ color: #925AFF;}
 color: rgb(0, 255, 170)}
 #playlist-menu .menu .row .count{
 color: rgb(250, 180, 15)}
-#chat .log .text{
-color: rgb(255, 40, 160)}
 #chat .user-action{
 color: rgb(240, 10, 40)}
 #chat .from .un, #chat .from.you .un{
@@ -258,7 +256,7 @@ color: rgb(255, 100, 0)}
 color: rgb(0, 0, 0)}
 #footer-user .info .meta .label, #playback-controls .button .box, .communities .grid .cell .meta .host{
 color: rgb(100, 0, 190)}
-#chat-input-field, .app-right .friends .list-header .title, .app-right .friends .list-header .count, #chat-messages{
+#chat-input-field, .app-right .friends .list-header .title, .app-right .friends .list-header .count{
 color: rgb(0, 230, 255)}
 .app-right .friends .list-header input, .app-right .friends .list-header .input-background, #user-lists .list-header input, #filter-input input, #search-input input,
 #user-lists .list.staff .group span{
