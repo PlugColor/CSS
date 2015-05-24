@@ -17,6 +17,7 @@ background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
 /*| background: url(http://i.imgur.com/GZKgCpk.png) TT.fm After Party Theme |*/
 /*| background: url(http://i.imgur.com/zSMRtE6.png) Digital Dungeon (Lite) |*/
 /*| background: url(http://i.imgur.com/M0CeHah.png) Plug.dj Christmas Ice |*/
+
 /*| background: url(http://i.imgur.com/k9zVa92.png) Skygazer Theme (Lite) |*/
 /*| background: url(http://i.imgur.com/nptZvUk.png) Chillout Mixer Theme |*/
 /*| background: url(http://i.imgur.com/kmmPWiS.jpg) Plug.dj Old Default |*/
@@ -112,17 +113,6 @@ to {transform: translate(16px, 0px)}}
 @-webkit-keyframes fire{
 from {transform: translate(0px, 0px);}
 to {transform: translate(16px, 0px)}}
-span.emoji-1f52b{
-background: url(http://i.imgur.com/YoWEpPE.png)}
-span.emoji-1f52b{
-animation: bang 4s steps(2,end) infinite;
--webkit-animation: bang 1s steps(2,end) infinite;}
-@keyframes bang{
-from {background-position: 0px 0px;}
-to {background-position: -32px 0px;}}
-@-webkit-keyframes bang{
-from {background-position: 0px 0px;}
-to {background-position: -32px 0px;}}
 span.emoji-1f44b{
 animation: wave 0.6s ease-out alternate infinite !important;
 -webkit-animation: wave 0.3s ease-out alternate infinite !important;}
